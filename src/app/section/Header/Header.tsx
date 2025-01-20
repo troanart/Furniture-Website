@@ -43,7 +43,7 @@ export default function Header() {
             src="/bag.svg"
             width={30}
             height={30}
-            alt={"User icon"}
+            alt={"Bag icon"}
             className="hidden md:block"
           />
           <Icon
