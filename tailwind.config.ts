@@ -8,9 +8,21 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        screens: {
+          sm: "100%",
+          xl: "1240px",
+        },
+      },
+      spacing: {
+        "60": "60px",
+      },
       colors: {
+        customBorder: "rgba(243, 243, 243, 1)",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primaryColor: "rgba(81, 133, 129, 1)",
       },
     },
   },

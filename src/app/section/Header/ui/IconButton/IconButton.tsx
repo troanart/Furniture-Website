@@ -5,6 +5,7 @@ interface IconButtonProps {
   alt: string;
   width: number;
   height: number;
+  className?: string;
 }
 
 export default function IconButton({
@@ -12,10 +13,17 @@ export default function IconButton({
   alt,
   width,
   height,
+  className,
 }: IconButtonProps) {
   return (
     <button>
-      <Image src={src} alt={alt} width={width} height={height} />
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        className={className}
+      />
     </button>
   );
 }
