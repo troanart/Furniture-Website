@@ -44,7 +44,7 @@ export default function Header() {
             width={30}
             height={30}
             alt={"Bag icon"}
-            className="hidden md:block"
+            className="hidden relative md:block"
           />
           <Icon
             src="/user.svg"

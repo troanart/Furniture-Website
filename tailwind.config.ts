@@ -7,6 +7,7 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {},
     extend: {
       container: {
         center: true,
@@ -23,6 +24,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primaryColor: "rgba(81, 133, 129, 1)",
+        textPrimary: "rgba(175, 173, 181, 1)",
       },
     },
   },

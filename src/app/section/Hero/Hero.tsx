@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
         </div>
         <div className="max-w-[796px] mx-auto text-center mb-[50px]">
-          <p className="text-lg">
+          <p className="text-lg text-textPrimary">
             Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
             dignissim placerat nisi, adipiscing mauris non. Purus parturient
             viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing

@@ -6,6 +6,7 @@ interface IconButtonProps {
   width: number;
   height: number;
   className?: string;
+  sizes?: string;
 }
 
 export default function IconButton({
@@ -14,6 +15,7 @@ export default function IconButton({
   width,
   height,
   className,
+  sizes,
 }: IconButtonProps) {
   return (
     <button>
@@ -23,6 +25,7 @@ export default function IconButton({
         width={width}
         height={height}
         className={className}
+        sizes={sizes}
       />
     </button>
   );
