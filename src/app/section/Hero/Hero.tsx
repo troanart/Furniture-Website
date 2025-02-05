@@ -10,7 +10,7 @@ export default function Hero() {
             Discover Furniture With High Quality Wood
           </h1>
         </div>
-        <div className="max-w-[796px] mx-auto text-center mb-[50px]">
+        <div className="max-w-[796px] mx-auto text-center mb-[50px] lg:mb-[92px]">
           <p className="text-lg text-textPrimary">
             Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
             dignissim placerat nisi, adipiscing mauris non. Purus parturient

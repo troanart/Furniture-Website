@@ -27,6 +27,7 @@ export default {
         textPrimary: "rgba(175, 173, 181, 1)",
         shadowSearch: "rgba(175, 173, 181, 0.2)",
         greenColor: "rgba(81, 133, 129, 1)",
+        hoverGreenColor: " rgb(52, 87, 84)",
       },
     },
   },
